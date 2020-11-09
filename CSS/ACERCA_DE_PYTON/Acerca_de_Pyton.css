@@ -1,0 +1,239 @@
+/*CSS reset settings here*/
+
+* {
+    margin: 1px;
+    padding: 1px;
+}
+
+#container {
+    width: 970px;
+    height: 500px;
+    vertical-align: top;
+    background-color: rgb(38, 81, 117);
+    margin: 0px auto;
+}
+
+#box1 {
+    width: 360px;
+    height: auto
+}
+
+.photo {
+    width: 350px;
+    height: auto;
+    margin: 15px;
+    float: left;
+}
+
+#box2 {
+    width: 150px;
+    height: 20px;
+    margin-left: 400px;
+    float: left;
+}
+
+.text1 {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    float: left;
+}
+
+.text2 {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(212, 178, 0);
+    text-decoration: underline;
+    float: left;
+}
+
+.text3 {
+    font-size: 12px;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(212, 178, 0);
+    float: left;
+}
+
+.text4 {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    float: left;
+}
+
+.box3 {
+    width: 300px;
+    height: 60px;
+    margin: 30px;
+    margin-left: 650px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgb(31, 43, 51);
+    background-color: rgb(68, 68, 68);
+}
+
+.search {
+    width: 170px;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 50px;
+    text-align: center;
+    font-size: 15px;
+    border-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.go {
+    width: 50px;
+    height: 40px;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 2px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: baseline;
+    border-radius: 10px;
+    border-bottom: 5 px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(36, 80, 118);
+}
+
+.box4 {
+    padding: 5px;
+    height: 35px;
+    width: 820px;
+    margin-left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: rgb(67, 124, 173);
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgb(31, 43, 51);
+    text-align: center;
+}
+
+.link {
+    color: aliceblue;
+    padding: 20px;
+    padding-top: 5px;
+    text-decoration: none;
+}
+
+.box5 {
+    padding: 5px;
+    height: 150px;
+    width: 300px;
+    margin-left: 60px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: aliceblue;
+    text-align: center;
+    line-height: 25px;
+}
+
+.link1 {
+    color: aliceblue;
+}
+
+.parrafo1 {
+    color: aliceblue;
+    text-align: center;
+    margin-left: 325px;
+    margin-top: -165px;
+    font-size: 13px;
+    font-family: Helvetica;
+    width: 570px;
+    height: auto;
+}
+
+.parrafo2 {
+    color: yellow;
+    text-align: center;
+    font-size: 18px;
+    font-family: Helvetica;
+    font-style: oblique;
+    padding: 5px;
+}
+
+.parrafo3 {
+    color: aliceblue;
+    text-align: center;
+    font-size: 18px;
+    font-family: Helvetica;
+    padding: 5px;
+}
+
+.Icon {
+    color: yellow;
+}
+
+.windows1 {
+    width: 280px;
+    height: auto;
+    margin left: 80px;
+    text-align: center;
+    background-color: aliceblue;
+    color-adjust: #7dadd8;
+    display: inline-block;
+    vertical-align: bottom;
+    vertical-align: top;
+    font-family: Helvetica;
+    border-top: 3px solid #73a7d5;
+}
+
+.subrayado {
+    color: #7dadd8;
+}
+
+.banner1 {
+    background: aliceblue;
+    width: 950px;
+    margin: 10px auto;
+    border: 10px;
+    height: 300px;
+    text-align: center;
+    padding: 20px;
+    vertical-align: top;
+}
+
+#list_2 {
+    list-style: square;
+    color: #7dadd8
+}
+
+#p {
+    color: black;
+}
+
+#h4 {
+    color: black;
+}
+
+.parrafos2 {
+    width: 300px;
+    height: auto;
+    margin-left: 460px;
+    margin-top: -70px;
+}
+
+.banner {
+    background: linear-gradient(#245076, #3374ac);
+    width: 950px;
+    margin: 0px auto;
+    height: 40px;
+    text-align: center;
+    padding: 20px;
+    vertical-align: bottom;
+}
+
+.link_2 {
+    color: #7dadd8;
+    text-decoration: none;
+    vertical-align: bottom;
+    font-family: Helvetica;
+    text-decoration: none;
+    padding: 15px;
+}

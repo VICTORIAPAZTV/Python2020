@@ -1,0 +1,17 @@
+/*CSS reset settings here*/
+
+* {
+    margin: 1px;
+    padding: 1px;
+}
+
+#wrapper {
+    width: 970px;
+    background-color: rgb(38, 81, 117);
+    margin: 0px auto;
+}
+
+.photo {
+    width: 50px;
+    height: auto;
+}

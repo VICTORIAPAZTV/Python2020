@@ -1,0 +1,79 @@
+/*CSS reset settings here*/
+
+* {
+    margin: 1px;
+    padding: 1px;
+}
+
+.wreapper {
+    height: auto;
+    width: auto;
+    color: black;
+}
+
+.p {
+    width: 100%;
+}
+
+.uno {
+    background-color: rgb(179, 179, 179);
+}
+
+.dos {
+    background-color: rgb(204, 204, 204);
+}
+
+.tres {
+    background-color: rgb(255, 255, 154)
+}
+
+.cuatro {
+    background-color: rgb(255, 255, 154)
+}
+
+.cinco {
+    background-color: rgb(255, 255, 154)
+}
+
+#color {
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 480px) {
+    .tres {
+        display: none;
+    }
+    .cuatro {
+        display: none;
+    }
+    .p {
+        width: 250px;
+    }
+}
+
+@media only screen and (min-width: 481px) {
+    .tres {
+        display: none;
+    }
+    .cinco {
+        display: none;
+    }
+    .p {
+        width: 400px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .tres {
+        display: block;
+    }
+    .cuatro {
+        display: none;
+    }
+    .cinco {
+        display: none;
+    }
+    .p {
+        width: 600px;
+    }
+}

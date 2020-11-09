@@ -1,0 +1,174 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#wrapper {
+    width: 970px;
+    vertical-align: top;
+    background-image: linear-gradient(rgb(38, 21, 26), rgb(111, 89, 100), rgb(38, 21, 26));
+    margin: 0px auto;
+}
+
+#header {
+    color: rgb(0, 0, 0);
+    vertical-align: top;
+    min-height: 40px;
+    background-color: rgb(255, 255, 255);
+}
+
+.button {
+    background-color: rgb(64, 125, 97);
+    color: aliceblue;
+    border-radius: 15px
+}
+
+.container {
+    height: 30px;
+    position: relative;
+    border: 0px solid green;
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.center {
+    background-color: rgb(62, 110, 82);
+    color: rgb(255, 255, 255);
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    margin-left: 25px;
+    width: 400px;
+    display: inline-block;
+    vertical-align: top;
+    font-family: Comic Sans MS
+}
+
+h3 {
+    margin-left: 160px;
+    padding: 15px;
+    width: 350px;
+    display: inline-block;
+    vertical-align: top;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#subcontent {
+    height: 700px;
+}
+
+#content {
+    vertical-align: top;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    min-height: 350px;
+    width: 400px;
+    color: rgb(191, 215, 234);
+    background-color: rgb(250, 250, 250);
+}
+
+#about {
+    vertical-align: top;
+    margin-left: 30px;
+    color: rgb(0, 0, 0);
+    padding: 0px;
+    margin: 10px;
+    display: inline-block;
+    height: 373px;
+    width: 485px;
+    background-image: rgb(180, 180, 183);
+    background: linear-gradient(180deg, rgba(180, 180, 183, 1) 64%, rgba(140, 138, 151, 1) 92%);
+}
+
+.parrafoabout {
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.linku {
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.parrafo {
+    padding: 5px;
+    height: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cajas {
+    vertical-align: top;
+    margin-left: 30px;
+    color: rgb(0, 0, 0);
+    padding: 0px;
+    margin: 10px;
+    display: inline-block;
+    height: 678px;
+    width: 300px;
+    background-image: linear-gradient(to right, rgb(240, 235, 235), rgb(170, 170, 170));
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+}
+
+.h4 {
+    color: aliceblue;
+    padding: 5px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(180deg, rgba(180, 180, 183, 1) 64%, rgba(140, 138, 151, 1) 92%)
+}
+
+.h2 {
+    color: aliceblue;
+    padding: 5px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(180deg, rgba(180, 180, 183, 1) 64%, rgba(140, 138, 151, 1) 92%);
+}
+
+.footer {
+    background-color: #f6f6f6;
+    text-align: center;
+    padding: 2px;
+}
+
+.footer p {
+    margin: 5px;
+}
+
+.soc-net {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 5px;
+}
+
+.soc-net a {
+    color: black;
+    font-style: italic;
+    vertical-align: middle;
+}
+
+.soc-net img {
+    width: 10px;
+    height: auto;
+    display: inline-block;
+    margin: 2px;
+    padding: 0px;
+    vertical-align: middle;
+}

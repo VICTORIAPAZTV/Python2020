@@ -1,0 +1,190 @@
+* {
+    border: 0 none;
+    /* outline: 1px solid red; */
+    padding: 0px;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.wrapper {
+    width: 920px;
+    background: linear-gradient(#1d0c11, #6f5964, #1d0c11);
+}
+
+h4 {
+    color: #f1ede9;
+    background: linear-gradient(#a6a2a7, #888794, #a6a2a7);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+h5 {
+    color: #f1ede9;
+    background: linear-gradient(#a6a2a7, #888794, #a6a2a7);
+    font-size: 15px;
+    font-weight: 700;
+}
+
+br {
+    margin: 10px;
+}
+
+.header {
+    padding: 5px;
+    background-color: white;
+    height: 45px;
+}
+
+.header h1,
+h3 {
+    display: inline-block;
+    vertical-align: middle;
+    color: black;
+}
+
+.header h1 {
+    margin-left: 15px;
+    width: 45%;
+    height: 40px;
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.header h3 {
+    font-size: 1em;
+    text-align: right;
+    margin-left: 20px;
+    width: 45%;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.content {
+    padding: 10px;
+}
+
+.mainphoto {
+    width: 350px;
+    height: auto;
+    margin: 10px;
+    border: 4px solid #b8b7b7;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.about,
+.development {
+    background-image: linear-gradient(to right, rgba(254, 254, 254, 0.9), rgba(218, 203, 217, 1));
+}
+
+.about {
+    display: inline-block;
+    text-align: left;
+    width: 506px;
+    height: 238.25px;
+    margin: 10px 10px 10px 0px;
+    vertical-align: top;
+}
+
+.about h4 {
+    display: block;
+    width: auto;
+    padding: 10px;
+}
+
+.about p {
+    padding: 10px;
+    height: auto;
+}
+
+.about a {
+    color: #86627d;
+    display: block;
+    padding: 10px;
+}
+
+.portfolio {
+    padding: 10px;
+}
+
+.development {
+    display: inline-block;
+    width: 277px;
+    margin: 10px;
+    vertical-align: top;
+}
+
+.development h4,
+h5 {
+    display: block;
+    width: auto;
+    padding: 10px;
+}
+
+.devphoto {
+    width: 277px;
+    height: auto;
+    display: block;
+}
+
+.logophoto {
+    display: inline-block;
+    width: 42px;
+    height: auto;
+    margin: 5px;
+}
+
+.development p {
+    padding: 10px;
+    height: 178px;
+}
+
+.button {
+    padding: 10px;
+}
+
+.development input {
+    display: block;
+    text-align: center;
+    border: 1px solid #61736b;
+    border-radius: 5px;
+    margin: auto;
+    background-color: #356c53;
+    color: #f1ede9;
+    padding: 5px;
+    box-shadow: 5px 5px 10px #61736b;
+    padding: 0px 5px;
+}
+
+.footer {
+    background-color: #f6f6f6;
+    text-align: center;
+    padding: 2px;
+}
+
+.footer p {
+    margin: 5px;
+}
+
+.soc-net {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 5px;
+}
+
+.soc-net a {
+    color: black;
+    font-style: italic;
+    vertical-align: middle;
+}
+
+.soc-net img {
+    width: 20px;
+    height: auto;
+    display: inline-block;
+    margin: 2px;
+    padding: 0px;
+    vertical-align: middle;
+}
